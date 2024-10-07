@@ -34,5 +34,25 @@ const myFunction = function()
     
 }
 
-console.log(typeof bigNumber);
+console.log(typeof bigNumber)
 
+//============================//
+/* 2 types of memories
+Stack(permitive), Heap(non-premitive)
+*/
+
+let youtubename = "abhinav"
+let anothername = youtubename
+console.log(youtubename);
+anothername = "chaiaurcode"
+console.log(anothername);
+
+let userone ={
+    email: "abhi@gmail.com",
+    upi: "abkmk@njnk"
+}
+let usertwo =userone
+usertwo.email = "samkj@gmail.com"
+
+console.log(userone.email)
+console.log(usertwo.email)
