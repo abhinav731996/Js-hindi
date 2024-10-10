@@ -9,3 +9,7 @@ console.log(balance.toFixed(2));
 
 const otherNumber = 23.89
 console.log(otherNumber.toPrecision);
+
+const hundred = 1000000
+console.log(hundred.toLocaleString('en-IN'));
+
