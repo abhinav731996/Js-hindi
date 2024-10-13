@@ -48,3 +48,14 @@ console.log(tinder);
 console.log(Object.keys(tinder));
 console.log(Object.values(tinder));
 console.log(Object.entries(tinder));
+
+// ++++++++++++ Destructure the element ++++++++++++
+
+const course = {
+    coursename:"javascript",
+    price:999,
+    courseteacher: "Hitesh"
+}
+const{courseteacher: teacher} = course
+console.log(teacher);
+console.log(course);
