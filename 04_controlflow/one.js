@@ -1,4 +1,4 @@
-//++++++++++ IF ++++++++++
+//++++++++++ If & Else ++++++++++
 
 const temp = 44
 
@@ -29,6 +29,7 @@ if (balance>500) console.log("balance is greater then 500");     //immpleasive s
 
 
 //++++++++++++++ And(&&) Or(||) +++++++++++
+
 const UserloggedIn = true
 const debitCard = true
 const loggedinFromGoogle = false
@@ -41,3 +42,5 @@ const loggedinFromEmail = true
  if (loggedinFromEmail || loggedinFromGoogle) {
     console.log("Logged In");
  }
+
+ 
