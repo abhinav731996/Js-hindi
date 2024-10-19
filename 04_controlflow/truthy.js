@@ -23,3 +23,21 @@ if (Object.keys(emptyObj).length === 0) {
     
     
 }
+
+//++++++++++ Nullish Coalescing operation(??):- null, undefined ++++++++++=
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = 5 ?? null
+// val1 = null ?? undefined
+val1 = undefined ?? 10
+// val1 = 5 ?? undefined
+console.log(val1);
+
+//++++++++++++ Ternairy Operation:- condition ? true : false +++++++
+
+const iceTeaPrice = 50
+iceTeaPrice >= 80 ? console.log("greater then 80") : console.log("less then 80");
+ 
+
