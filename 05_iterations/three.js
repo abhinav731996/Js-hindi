@@ -24,11 +24,11 @@ for (const m of map) {
     
 }
 
-const myObject = {
-    'game' : 'nfs',
-    'game' : 'batmen'
-}
-for (const [key, value] of myObject) {
-    console.log(key & value);
+// const myObject = {
+//     'game' : 'nfs',
+//     'game' : 'batmen'
+// }
+// for (const [key, value] of myObject) {
+//     console.log(key & value);
     
-}
+// }
